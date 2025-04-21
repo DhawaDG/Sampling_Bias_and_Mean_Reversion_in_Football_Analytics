@@ -9,7 +9,7 @@ This project delves into the concepts of sampling bias and mean reversion within
 - [Technologies Used](#technologies-used)
 - [How to Run](#how-to-run)
 - [Contributing](#contributing)
-- [License](#license)
+- [Challenge](#challenge)
 
 ## Introduction
 Sampling bias and mean reversion are critical concepts in statistics that can significantly impact the analysis of football data. This project investigates these concepts and demonstrates their implications through real-world football datasets.
@@ -54,7 +54,7 @@ Sampling bias and mean reversion are critical concepts in statistics that can si
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
 ## Challenge
-## Challenge
+
 
 1. **Error and Solution: Invalid Line Style in `plt.axhline`**  
    While working on `05_Population_mean_Vs_Sample_mean.ipynb`, an error occurred:  
