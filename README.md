@@ -76,7 +76,7 @@ Contributions are welcome! Please fork the repository and submit a pull request 
  3. **Understanding and Implementing pivot()**
    In 07_Regression_to_mean.ipynb, creating a pivot table to compare player performance across two seasons was moderately challenging. The pivot() function was used to restructure the data, and the top 5 players were selected for visualization.
 
-**Key Code Snippet:**
+    **Key Code Snippet:**
     ```python
     pivot_df = df.pivot(index='Player', columns='Season', values='G+A').dropna()
     pivot_df.columns = ['G+A_2022_23', 'G+A_2023_24']
