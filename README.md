@@ -35,7 +35,7 @@ Sampling bias and mean reversion are critical concepts in statistics that can si
 ## How to Run
 1. Clone the repository:
     ```bash
-    git clone 
+    git clone https://github.com/DhawaDG/Sampling_Bias_and_Mean_Reversion_in_Football_Analytics
     ```
 2. Navigate to the project directory:
     ```bash
@@ -67,19 +67,22 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 2. **Text Annotation for Bar Values**
 
     In 06_Selection_Bias(Detecting Fake Patterns).ipynb, adding text annotations to label bar values was a challenge. The solution involved using plt.text within a loop to place the labels above each bar.
-    Example Code:
-
- for i, val in enumerate(averages):
- plt.text(i, val + 0.1, f'{val:.2f}', ha='center', fontsize=12)
+   
+    **Example Code:**
+    ```python
+    for i, val in enumerate(averages):
+    plt.text(i, val + 0.1, f'{val:.2f}', ha='center', fontsize=12)
 
  3. **Understanding and Implementing pivot()**
    In 07_Regression_to_mean.ipynb, creating a pivot table to compare player performance across two seasons was moderately challenging. The pivot() function was used to restructure the data, and the top 5 players were selected for visualization.
-Key Code Snippet:
-pivot_df = df.pivot(index='Player', columns='Season', values='G+A').dropna()
-pivot_df.columns = ['G+A_2022_23', 'G+A_2023_24']
-top_5 = pivot_df.sort_values('G+A_2022_23', ascending=False).head(5)
 
-4. Other Challenges
+**Key Code Snippet:**
+    ```python
+    pivot_df = df.pivot(index='Player', columns='Season', values='G+A').dropna()
+    pivot_df.columns = ['G+A_2022_23', 'G+A_2023_24']
+    top_5 = pivot_df.sort_values('G+A_2022_23', ascending=False).head(5)
+
+5. Other Challenges
 
 - Simulating realistic player performance data for two seasons and ensuring the data aligns with statistical principles.
 - Visualizing the regression to the mean effectively using bar plots and ensuring the plot is clear and informative.
