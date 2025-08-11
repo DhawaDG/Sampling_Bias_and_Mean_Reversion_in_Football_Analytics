@@ -2,6 +2,8 @@
 
 This project delves into the concepts of sampling bias and mean reversion within the realm of football analytics. By understanding the patterns and nature of the data, it aims to uncover how these statistical phenomena influence data interpretation and decision-making. The project focuses on identifying how to treat data—whether good or bad—while creating a roadmap for analyzing trends, finding the next direction, and improving predictive models in football analytics.
 
+---
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Objectives](#objectives)
@@ -11,13 +13,19 @@ This project delves into the concepts of sampling bias and mean reversion within
 - [Contributing](#contributing)
 - [Challenge](#challenge)
 
+---
+
 ## Introduction
 Sampling bias and mean reversion are critical concepts in statistics that can significantly impact the analysis of football data. This project investigates these concepts and demonstrates their implications through real-world football datasets.
+
+---
 
 ## Objectives
 - Understand the effects of sampling bias in football analytics.
 - Analyze mean reversion trends in player and team performance.
 - Develop tools to mitigate bias and improve predictive models.
+
+---
 
 ## Methodology
 1. Data collection from football datasets.
@@ -25,12 +33,16 @@ Sampling bias and mean reversion are critical concepts in statistics that can si
 3. Examination of mean reversion patterns.
 4. Visualization and reporting of findings.
 
+---
+
 ## Technologies Used
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Jupyter Notebook
+
+---
 
 ## How to Run
 1. Clone the repository:
@@ -50,8 +62,12 @@ Sampling bias and mean reversion are critical concepts in statistics that can si
     jupyter notebook
     ```
 
+---
+
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+---
 
 ## Challenge
 
@@ -88,3 +104,6 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 - Visualizing the regression to the mean effectively using bar plots and ensuring the plot is clear and informative.
 - Managing large datasets and ensuring the code is efficient and scalable.
 
+---
+
+##  **📂[Statistics and Hypothesis Project List →](https://github.com/DhawaDG/Statistics-and-Hypothesis/blob/main/README.md)** 
