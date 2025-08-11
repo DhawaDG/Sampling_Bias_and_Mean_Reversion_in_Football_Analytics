@@ -98,7 +98,7 @@ Contributions are welcome! Please fork the repository and submit a pull request 
     pivot_df.columns = ['G+A_2022_23', 'G+A_2023_24']
     top_5 = pivot_df.sort_values('G+A_2022_23', ascending=False).head(5)
 
-5. Other Challenges
+ 5. **Other Challenges**
 
 - Simulating realistic player performance data for two seasons and ensuring the data aligns with statistical principles.
 - Visualizing the regression to the mean effectively using bar plots and ensuring the plot is clear and informative.
